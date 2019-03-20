@@ -1,4 +1,4 @@
-# Homebrew formulas for itchyny's projects
+# Homebrew formulae for itchyny's projects
 ## Formula list
 
 - [fillin](https://github.com/itchyny/fillin) 0.1.0
