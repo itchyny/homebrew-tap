@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euxo pipefail
+
+cd "$(git rev-parse --show-toplevel)"
+
+for formula in $(git ls-files Formula | grep "[.]rb$"); do
+  formulate update "$formula"
+done
