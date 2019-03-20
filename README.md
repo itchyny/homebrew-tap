@@ -1,5 +1,6 @@
 # Homebrew taps for itchyny's projects
 
+- [fillin](https://github.com/itchyny/fillin) 0.1.0
 - [formulate](https://github.com/itchyny/formulate) 0.0.2
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
 - [gojo](https://github.com/itchyny/gojo) 0.0.4
