@@ -1,8 +1,17 @@
 #!/bin/bash
-set -euxo pipefail
+set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
+tmp=$(mktemp -t "readme.XXXXXXXX")
+trap 'rm -rf $tmp' EXIT SIGHUP SIGINT SIGQUIT SIGTERM
+
 for formula in $(git ls-files Formula | grep "[.]rb$"); do
-  formulate update "$formula"
+  formulate update "$formula" | tee "$tmp"
+  if grep "Updated" "$tmp" > /dev/null; then
+    name=$(sed -n "/homepage/s/^.*github.com\/[^/]*\/\\(.*\\)'/\\1/gp" "$formula" | head -n1)
+    version=$(sed -n "/version/s/^.*'\\(.*\\)'.*/\\1/gp" "$formula" | head -n1)
+    ./script/update-readme
+    git commit -a -m "$name v$version"
+  fi
 done
