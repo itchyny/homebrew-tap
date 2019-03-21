@@ -10,7 +10,7 @@ trap 'rm -rf $tmp $outtmp' EXIT SIGHUP SIGINT SIGQUIT SIGTERM
 
 for formula in $(git ls-files Formula | grep "[.]rb$"); do
   homepage=$(sed -n "/homepage/s/^.*'\\(.*\\)'.*/\\1/gp" "$formula" | head -n1)
-  name=$(echo "$homepage" | sed -n "s/^.*github.com\/[^/]*\///gp")
+  name=$(basename "${formula%.*}")
   version=$(sed -n "/version/s/^.*'\\(.*\\)'.*/\\1/gp" "$formula" | head -n1)
   echo "- [$name]($homepage) $version"
 done > "$tmp"
