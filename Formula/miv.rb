@@ -1,8 +1,8 @@
 class Miv < Formula
   homepage 'https://github.com/itchyny/miv'
-  version '0.3.1'
-  url 'https://github.com/itchyny/miv/releases/download/v0.3.1/miv_darwin.zip'
-  sha256 '303f867a596f608aff2d54c646277631a2b5e3483e993deab9008f1355711a14'
+  version '0.3.2'
+  url 'https://github.com/itchyny/miv/releases/download/v0.3.2/miv_darwin.zip'
+  sha256 '70c391481cb68366b709b7832fcbdccb9e1bd65bf5c7b27c374d8e8537979cd5'
 
   def install
     bin.install 'miv'
