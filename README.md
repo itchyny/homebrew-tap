@@ -10,6 +10,7 @@
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.1
 - [qhs](https://github.com/itchyny/qhs) 0.2.0
 - [rexdep](https://github.com/itchyny/rexdep) 0.1.0
+- [sjsp](https://github.com/itchyny/sjsp) 0.1.1
 
 ## Author
 itchyny (https://github.com/itchyny)
