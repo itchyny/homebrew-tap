@@ -4,8 +4,8 @@ set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
 target="README.md"
-tmp=$(mktemp -t "readme.XXXXXXXX")
-outtmp=$(mktemp -t "readme.XXXXXXXX")
+tmp=$(mktemp -t "update-readme.XXXXXXXX")
+outtmp=$(mktemp -t "update-readme.XXXXXXXX")
 trap 'rm -rf $tmp $outtmp' EXIT SIGHUP SIGINT SIGQUIT SIGTERM
 
 for formula in $(git ls-files Formula | grep "[.]rb$"); do
