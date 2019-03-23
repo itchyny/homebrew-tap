@@ -1,7 +1,7 @@
 # Homebrew formulae for itchyny's projects
 ## Formula list
 
-- [base58](https://github.com/itchyny/base58-go) 0.0.1
+- [base58](https://github.com/itchyny/base58-go) 0.0.2
 - [fillin](https://github.com/itchyny/fillin) 0.1.1
 - [formulate](https://github.com/itchyny/formulate) 0.0.3
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
