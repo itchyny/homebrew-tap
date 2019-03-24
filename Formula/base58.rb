@@ -1,8 +1,8 @@
 class Base58 < Formula
   homepage 'https://github.com/itchyny/base58-go'
-  version '0.0.2'
-  url 'https://github.com/itchyny/base58-go/releases/download/v0.0.2/base58_darwin_amd64.zip'
-  sha256 '66f11c9bffa14775168f73d2583a402dc9379872cc6e9dfc8cee3bf95b750030'
+  version '0.0.3'
+  url 'https://github.com/itchyny/base58-go/releases/download/v0.0.3/base58_darwin_amd64.zip'
+  sha256 'f4fc1d777857c2b5a158310ca2a1e523e2e9ef00238fa9f7c0a22de0eec5daf1'
 
   head do
     url 'https://github.com/itchyny/base58-go.git'
@@ -16,6 +16,7 @@ class Base58 < Formula
     else
       bin.install 'base58'
     end
+    zsh_completion.install "_base58"
   end
 
   test do
