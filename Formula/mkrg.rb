@@ -1,8 +1,8 @@
 class Mkrg < Formula
   homepage 'https://github.com/itchyny/mkrg'
   version '0.0.2'
-  url 'https://github.com/itchyny/mkrg/releases/download/v0.0.2/mkrg_v0.0.1_darwin_amd64.zip'
-  sha256 '0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5'
+  url 'https://github.com/itchyny/mkrg/releases/download/v0.0.2/mkrg_v0.0.2_darwin_amd64.zip'
+  sha256 '0a4a768d0fc5883a3daab7a4ae293d8e3b7a27aa21816e3c40f7cacd3af4dac3'
 
   head do
     url 'https://github.com/itchyny/mkrg.git'
