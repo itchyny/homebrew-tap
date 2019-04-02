@@ -1,8 +1,8 @@
 class Maketen < Formula
   homepage 'https://github.com/itchyny/maketen-go'
-  version '0.0.0'
-  url 'https://github.com/itchyny/maketen-go/releases/download/v0.0.0/maketen_darwin_amd64.zip'
-  sha256 '39314539d603294196f335a458071e8dbbab106b90578589742416e1bde8c6f9'
+  version '0.0.1'
+  url 'https://github.com/itchyny/maketen-go/releases/download/v0.0.1/maketen_darwin_amd64.zip'
+  sha256 '7f9ddaa706eb2f6661849cbcaa378380be9068af59e262c5a73b49044f0742f7'
 
   head do
     url 'https://github.com/itchyny/maketen-go.git'
