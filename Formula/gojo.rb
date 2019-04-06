@@ -1,8 +1,8 @@
 class Gojo < Formula
   homepage 'https://github.com/itchyny/gojo'
-  version '0.0.6'
-  url 'https://github.com/itchyny/gojo/releases/download/v0.0.6/gojo_darwin_amd64.zip'
-  sha256 '5112e9b4a0fd5a0a53f1896beac77f89022bc513ed9b2342c1742c93f1baad81'
+  version '0.0.7'
+  url 'https://github.com/itchyny/gojo/releases/download/v0.0.7/gojo_v0.0.7_darwin_amd64.zip'
+  sha256 '2af8c223eb2ad6ec81c318cc9ab4a9e51f9342c6b78bbc42de6b8633d9831bd3'
 
   head do
     url 'https://github.com/itchyny/gojo.git'
