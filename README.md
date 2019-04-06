@@ -7,7 +7,7 @@
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
 - [gojo](https://github.com/itchyny/gojo) 0.0.7
 - [maketen](https://github.com/itchyny/maketen-go) 0.0.1
-- [maze](https://github.com/itchyny/maze) 0.0.3
+- [maze](https://github.com/itchyny/maze) 0.0.4
 - [miv](https://github.com/itchyny/miv) 0.3.2
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.2
 - [pihex](https://github.com/itchyny/pihex-rs) 0.1.3
