@@ -1,8 +1,8 @@
 class Base58 < Formula
   homepage 'https://github.com/itchyny/base58-go'
-  version '0.0.4'
-  url 'https://github.com/itchyny/base58-go/releases/download/v0.0.4/base58_v0.0.4_darwin_amd64.zip'
-  sha256 '5521f9ccf17e9abff1de99baf490ebeffae31033ca14d7c89f139b5506333df4'
+  version '0.0.5'
+  url 'https://github.com/itchyny/base58-go/releases/download/v0.0.5/base58_v0.0.5_darwin_amd64.zip'
+  sha256 '9dbbfdc2bb33df89b9dbf274db2a8a5afadda55351bf9cf2a2727fae10f70f06'
 
   head do
     url 'https://github.com/itchyny/base58-go.git'
