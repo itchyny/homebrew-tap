@@ -1,8 +1,8 @@
 class Gojq < Formula
   homepage 'https://github.com/itchyny/gojq'
-  version '0.0.1'
-  url 'https://github.com/itchyny/gojq/releases/download/v0.0.1/gojq_v0.0.1_darwin_amd64.zip'
-  sha256 'f60e4f1a8f71dd498b3f721300a96e3e8ef39cc8a4fc085a9d58e8d1105990bc'
+  version '0.1.0'
+  url 'https://github.com/itchyny/gojq/releases/download/v0.1.0/gojq_v0.1.0_darwin_amd64.zip'
+  sha256 'f1d333b8d6620cef81c01b6bbb61bfe8da2df6ce8eb637750c30baa0be4eb6b2'
 
   head do
     url 'https://github.com/itchyny/gojq.git'
