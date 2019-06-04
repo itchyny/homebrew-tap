@@ -6,7 +6,7 @@
 - [formulate](https://github.com/itchyny/formulate) 0.0.5
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
 - [gojo](https://github.com/itchyny/gojo) 0.0.7
-- [gojq](https://github.com/itchyny/gojq) 0.2.0
+- [gojq](https://github.com/itchyny/gojq) 0.3.0
 - [maketen](https://github.com/itchyny/maketen-go) 0.0.1
 - [maze](https://github.com/itchyny/maze) 0.0.4
 - [miv](https://github.com/itchyny/miv) 0.3.2
