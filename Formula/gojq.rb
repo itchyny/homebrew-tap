@@ -1,8 +1,8 @@
 class Gojq < Formula
   homepage 'https://github.com/itchyny/gojq'
-  version '0.4.0'
-  url 'https://github.com/itchyny/gojq/releases/download/v0.4.0/gojq_v0.4.0_darwin_amd64.zip'
-  sha256 'f3bb4af3449cb0dda251811c26022bcfaae0d8e89998112fc9e59a110be2567d'
+  version '0.5.0'
+  url 'https://github.com/itchyny/gojq/releases/download/v0.5.0/gojq_v0.5.0_darwin_amd64.zip'
+  sha256 '9cb42f163e7a37ec775bdb06cb594c3c2b917672a4d9df17a1c0fb2d5389e653'
 
   head do
     url 'https://github.com/itchyny/gojq.git'
@@ -12,10 +12,8 @@ class Gojq < Formula
   def install
     if build.head?
       system 'make', 'build'
-      bin.install 'build/gojq'
-    else
-      bin.install 'gojq'
     end
+    bin.install 'gojq'
   end
 
   test do
