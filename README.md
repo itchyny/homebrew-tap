@@ -12,7 +12,7 @@
 - [miv](https://github.com/itchyny/miv) 0.3.2
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.2
 - [pihex](https://github.com/itchyny/pihex-rs) 0.1.3
-- [qhs](https://github.com/itchyny/qhs) 0.2.0
+- [qhs](https://github.com/itchyny/qhs) 0.2.1
 - [rexdep](https://github.com/itchyny/rexdep) 0.1.0
 - [sjsp](https://github.com/itchyny/sjsp) 0.1.1
 
