@@ -1,8 +1,8 @@
 class MackerelPluginBattery < Formula
   homepage 'https://github.com/itchyny/mackerel-plugin-battery'
-  version '0.0.0'
-  url 'https://github.com/itchyny/mackerel-plugin-battery/releases/download/v0.0.0/mackerel-plugin-battery_v0.0.0_darwin_amd64.zip'
-  sha256 '49dcf177b9fc0ecb1ebfe45d756c6cbd27a63ee28f7f596f9f120c7c9b29d47e'
+  version '0.0.1'
+  url 'https://github.com/itchyny/mackerel-plugin-battery/releases/download/v0.0.1/mackerel-plugin-battery_v0.0.1_darwin_amd64.zip'
+  sha256 '414fa8ef40d53229a2db109d5cde8fde6fb9ed945a4011bf44d0d19dd9cfaea6'
 
   head do
     url 'https://github.com/itchyny/mackerel-plugin-battery.git'
