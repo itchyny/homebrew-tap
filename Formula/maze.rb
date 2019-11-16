@@ -1,8 +1,8 @@
 class Maze < Formula
   homepage 'https://github.com/itchyny/maze'
-  version '0.0.4'
-  url 'https://github.com/itchyny/maze/releases/download/v0.0.4/maze_v0.0.4_darwin_amd64.zip'
-  sha256 'dcf448cd0d98dec5c03ddfd4e0fb163ecfc2ee6f4e92fe8595b7635c41065c2c'
+  version '0.0.5'
+  url 'https://github.com/itchyny/maze/releases/download/v0.0.5/maze_v0.0.5_darwin_amd64.zip'
+  sha256 'a424ef0f090f3f1e7f335894e7b61956d4c01dc15330576523a5caf3dc8c32f2'
 
   head do
     url 'https://github.com/itchyny/maze.git'
@@ -12,10 +12,8 @@ class Maze < Formula
   def install
     if build.head?
       system 'make', 'build'
-      bin.install 'build/maze'
-    else
-      bin.install 'maze'
     end
+    bin.install 'maze'
   end
 
   test do
