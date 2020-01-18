@@ -12,7 +12,7 @@
 - [maketen](https://github.com/itchyny/maketen-go) 0.0.1
 - [maze](https://github.com/itchyny/maze) 0.0.6
 - [miv](https://github.com/itchyny/miv) 0.4.0
-- [mkrg](https://github.com/itchyny/mkrg) 0.0.2
+- [mkrg](https://github.com/itchyny/mkrg) 0.0.3
 - [mmv](https://github.com/itchyny/mmv) 0.1.1
 - [pihex](https://github.com/itchyny/pihex-rs) 0.1.3
 - [qhs](https://github.com/itchyny/qhs) 0.2.1

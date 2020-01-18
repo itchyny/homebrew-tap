@@ -1,8 +1,8 @@
 class Mkrg < Formula
   homepage 'https://github.com/itchyny/mkrg'
-  version '0.0.2'
-  url 'https://github.com/itchyny/mkrg/releases/download/v0.0.2/mkrg_v0.0.2_darwin_amd64.zip'
-  sha256 '0a4a768d0fc5883a3daab7a4ae293d8e3b7a27aa21816e3c40f7cacd3af4dac3'
+  version '0.0.3'
+  url 'https://github.com/itchyny/mkrg/releases/download/v0.0.3/mkrg_v0.0.3_darwin_amd64.zip'
+  sha256 'be706420118e88d20bae924977aa72c1fe09f7fada362c1c904859733574acb0'
 
   head do
     url 'https://github.com/itchyny/mkrg.git'
@@ -12,10 +12,8 @@ class Mkrg < Formula
   def install
     if build.head?
       system 'make', 'build'
-      bin.install 'build/mkrg'
-    else
-      bin.install 'mkrg'
     end
+    bin.install 'mkrg'
   end
 
   test do
