@@ -1,8 +1,8 @@
 class Gojo < Formula
   homepage 'https://github.com/itchyny/gojo'
-  version '0.1.0'
-  url 'https://github.com/itchyny/gojo/releases/download/v0.1.0/gojo_v0.1.0_darwin_amd64.zip'
-  sha256 'bd6811115564b10403ce5d87acf7487f3af5dc8e59d40b75fed32eeafd8dc961'
+  version '0.1.1'
+  url 'https://github.com/itchyny/gojo/releases/download/v0.1.1/gojo_v0.1.1_darwin_amd64.zip'
+  sha256 '762015808efee6af28133c545d1e6058c018eca9fcee379a0033a2b3370dec70'
 
   head do
     url 'https://github.com/itchyny/gojo.git'
@@ -12,10 +12,8 @@ class Gojo < Formula
   def install
     if build.head?
       system 'make', 'build'
-      bin.install 'build/gojo'
-    else
-      bin.install 'gojo'
     end
+    bin.install 'gojo'
     zsh_completion.install "_gojo"
   end
 
