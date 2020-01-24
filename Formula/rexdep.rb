@@ -12,10 +12,8 @@ class Rexdep < Formula
   def install
     if build.head?
       system 'make', 'build'
-      bin.install 'build/rexdep'
-    else
-      bin.install 'rexdep'
     end
+    bin.install 'rexdep'
   end
 
   test do

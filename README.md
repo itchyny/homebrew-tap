@@ -2,7 +2,7 @@
 ## Formula list
 
 - [base58](https://github.com/itchyny/base58-go) 0.1.0
-- [fillin](https://github.com/itchyny/fillin) 0.2.0
+- [fillin](https://github.com/itchyny/fillin) 0.3.0
 - [formulate](https://github.com/itchyny/formulate) 0.0.6
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
 - [gojo](https://github.com/itchyny/gojo) 0.1.1
