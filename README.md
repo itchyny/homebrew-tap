@@ -9,7 +9,7 @@
 - [gojq](https://github.com/itchyny/gojq) 0.7.0
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.0.3
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.0.0
-- [maketen](https://github.com/itchyny/maketen-go) 0.0.1
+- [maketen](https://github.com/itchyny/maketen-go) 0.0.2
 - [maze](https://github.com/itchyny/maze) 0.0.6
 - [miv](https://github.com/itchyny/miv) 0.4.0
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.3
