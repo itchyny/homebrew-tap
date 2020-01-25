@@ -1,8 +1,8 @@
 class Qhs < Formula
   homepage 'https://github.com/itchyny/qhs'
-  version '0.2.1'
-  url 'https://github.com/itchyny/qhs/releases/download/v0.2.1/qhs_darwin.zip'
-  sha256 'd82641b21f651675e37d231e084c313060fbb9da71de2a01a8abd4ad99a04ea7'
+  version '0.3.0'
+  url 'https://github.com/itchyny/qhs/releases/download/v0.3.0/qhs_v0.3.0_darwin_amd64.zip'
+  sha256 '1d7d9bce58a7e8df3e12a2e99b3e65175c977971bfe607bc7dbf722edb42d0b7'
 
   def install
     bin.install 'qhs'
