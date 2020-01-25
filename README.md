@@ -12,7 +12,7 @@
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.0.0
 - [maketen](https://github.com/itchyny/maketen-go) 0.0.2
 - [maze](https://github.com/itchyny/maze) 0.0.6
-- [miv](https://github.com/itchyny/miv) 0.4.0
+- [miv](https://github.com/itchyny/miv) 0.4.1
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.3
 - [mmv](https://github.com/itchyny/mmv) 0.1.1
 - [pihex](https://github.com/itchyny/pihex-rs) 0.1.3
