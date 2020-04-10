@@ -1,8 +1,8 @@
 class Bed < Formula
   homepage 'https://github.com/itchyny/bed'
-  version '0.1.0'
-  url 'https://github.com/itchyny/bed/releases/download/v0.1.0/bed_v0.1.0_darwin_amd64.zip'
-  sha256 '6bc03a0d613c15e536e6af518c467a4744e0479de1e738c19aee4579c161c3bb'
+  version '0.2.0'
+  url 'https://github.com/itchyny/bed/releases/download/v0.2.0/bed_v0.2.0_darwin_amd64.zip'
+  sha256 'e187964e997826fedd716ed2c848e8e37d195f2dc2426e9f2fcec895c7d204bb'
 
   head do
     url 'https://github.com/itchyny/bed.git'
