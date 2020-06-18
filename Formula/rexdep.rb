@@ -1,8 +1,8 @@
 class Rexdep < Formula
   homepage 'https://github.com/itchyny/rexdep'
-  version '0.2.0'
-  url 'https://github.com/itchyny/rexdep/releases/download/v0.2.0/rexdep_v0.2.0_darwin_amd64.zip'
-  sha256 '6a670a90d5a7e63d766c96e0bfd38212130eaeccd7c49a0d291af2ea58a38106'
+  version '0.3.0'
+  url 'https://github.com/itchyny/rexdep/releases/download/v0.3.0/rexdep_v0.3.0_darwin_amd64.zip'
+  sha256 '3256b7bac2745245fc5e44430d268ce9bc255a793d8e3d03dd86e3d37e1db5df'
 
   head do
     url 'https://github.com/itchyny/rexdep.git'
