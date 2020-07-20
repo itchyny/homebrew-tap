@@ -10,6 +10,7 @@
 - [gojq](https://github.com/itchyny/gojq) 0.11.0
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.0.3
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.0.0
+- [mackerel-plugin-uptime](https://github.com/itchyny/mackerel-plugin-uptime) 0.2.0
 - [maketen](https://github.com/itchyny/maketen-go) 0.0.2
 - [maze](https://github.com/itchyny/maze) 0.0.6
 - [miv](https://github.com/itchyny/miv) 0.4.2
