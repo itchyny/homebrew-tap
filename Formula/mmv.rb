@@ -1,8 +1,14 @@
 class Mmv < Formula
   homepage 'https://github.com/itchyny/mmv'
   version '0.1.1'
-  url 'https://github.com/itchyny/mmv/releases/download/v0.1.1/mmv_v0.1.1_darwin_amd64.zip'
-  sha256 '8c2e62795760fa184adee5734f3e0bca85738b13adfa067b212da72f7560cd3f'
+
+  if OS.mac?
+    url 'https://github.com/itchyny/mmv/releases/download/v0.1.1/mmv_v0.1.1_darwin_amd64.zip'
+    sha256 '8c2e62795760fa184adee5734f3e0bca85738b13adfa067b212da72f7560cd3f'
+  elsif OS.linux?
+    url 'https://github.com/itchyny/mmv/releases/download/v0.1.1/mmv_v0.1.1_linux_amd64.tar.gz'
+    sha256 '6eaa9c4c2b0994c774dc16139629270c6f931e0e7bb0eb52c1d234a881810eaa'
+  end
 
   head do
     url 'https://github.com/itchyny/mmv.git'
