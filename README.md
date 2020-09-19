@@ -15,7 +15,7 @@
 - [maze](https://github.com/itchyny/maze) 0.0.6
 - [miv](https://github.com/itchyny/miv) 0.4.2
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.3
-- [mmv](https://github.com/itchyny/mmv) 0.1.1
+- [mmv](https://github.com/itchyny/mmv) 0.1.2
 - [pihex](https://github.com/itchyny/pihex-rs) 0.1.4
 - [qhs](https://github.com/itchyny/qhs) 0.3.1
 - [rexdep](https://github.com/itchyny/rexdep) 0.3.0
