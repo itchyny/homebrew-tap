@@ -7,7 +7,7 @@
 - [formulate](https://github.com/itchyny/formulate) 0.0.6
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
 - [gojo](https://github.com/itchyny/gojo) 0.1.1
-- [gojq](https://github.com/itchyny/gojq) 0.11.1
+- [gojq](https://github.com/itchyny/gojq) 0.11.2
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.0.3
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.0.0
 - [mackerel-plugin-uptime](https://github.com/itchyny/mackerel-plugin-uptime) 0.2.0
