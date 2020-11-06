@@ -1,13 +1,13 @@
 class Miv < Formula
   homepage 'https://github.com/itchyny/miv'
-  version '0.4.3'
+  version '0.4.4'
 
   if OS.mac?
-    url 'https://github.com/itchyny/miv/releases/download/v0.4.3/miv_v0.4.3_darwin_amd64.zip'
-    sha256 'cb7baeb56a4e7b150605f3fe479ed6561bea6f9456460f6db0efa3f6f9b78641'
+    url 'https://github.com/itchyny/miv/releases/download/v0.4.4/miv_v0.4.4_darwin_amd64.zip'
+    sha256 '7f0c13903ade7dd1d56d3dae8581861a57ac636be52e209b0a75070590a4bd4d'
   elsif OS.linux?
-    url 'https://github.com/itchyny/miv/releases/download/v0.4.3/miv_v0.4.3_linux_amd64.zip'
-    sha256 '39a08bd7fff8787ee846cd6858bfe0c860dd49270215bd22f1946437766b2bed'
+    url 'https://github.com/itchyny/miv/releases/download/v0.4.4/miv_v0.4.4_linux_amd64.zip'
+    sha256 'b564cb5de8c6c45253c449c445299e9b573e45617d4060010e79a0862f298f0a'
   end
 
   def install
