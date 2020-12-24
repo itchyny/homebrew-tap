@@ -1,13 +1,13 @@
 class Gojq < Formula
   homepage 'https://github.com/itchyny/gojq'
-  version '0.11.2'
+  version '0.12.0'
 
   if OS.mac?
-    url 'https://github.com/itchyny/gojq/releases/download/v0.11.2/gojq_v0.11.2_darwin_amd64.zip'
-    sha256 '827f1e7b1fde18e18d4828460deebbfe8756b3a615b65948ef5bb7f58a66c2ff'
+    url 'https://github.com/itchyny/gojq/releases/download/v0.12.0/gojq_v0.12.0_darwin_amd64.zip'
+    sha256 'c40968aabfbb03900d805305f1e4a5bf610489051367f212830250f793f4dc32'
   elsif OS.linux?
-    url 'https://github.com/itchyny/gojq/releases/download/v0.11.2/gojq_v0.11.2_linux_amd64.tar.gz'
-    sha256 'c3e4e4680eef269a0c4db2e999772eea1551ebefe257911f3bee4589db7e415d'
+    url 'https://github.com/itchyny/gojq/releases/download/v0.12.0/gojq_v0.12.0_linux_amd64.tar.gz'
+    sha256 '9fb81d973051ff64d5bca45ffde4e00f56966f467426974a86797df2985f2817'
   end
 
   head do
