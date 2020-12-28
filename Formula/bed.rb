@@ -1,13 +1,13 @@
 class Bed < Formula
   homepage 'https://github.com/itchyny/bed'
-  version '0.2.0'
+  version '0.2.1'
 
   if OS.mac?
-    url 'https://github.com/itchyny/bed/releases/download/v0.2.0/bed_v0.2.0_darwin_amd64.zip'
-    sha256 'e187964e997826fedd716ed2c848e8e37d195f2dc2426e9f2fcec895c7d204bb'
+    url 'https://github.com/itchyny/bed/releases/download/v0.2.1/bed_v0.2.1_darwin_amd64.zip'
+    sha256 'eb757353cd95cc8d57c71a646ddb9381d9720dc61c315c9d78a91b3cd994617a'
   elsif OS.linux?
-    url 'https://github.com/itchyny/bed/releases/download/v0.2.0/bed_v0.2.0_linux_amd64.tar.gz'
-    sha256 '0e96ee93e79cd2f47053a1995f770922dacc6822ff3acfafa5f4b171823c7dca'
+    url 'https://github.com/itchyny/bed/releases/download/v0.2.1/bed_v0.2.1_linux_amd64.tar.gz'
+    sha256 'b18e55cb6c09c9bb88ea41ec682854709bf8fb082c2318e0b57093bb16fda7ba'
   end
 
   head do
