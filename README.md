@@ -20,7 +20,7 @@
 - [qhs](https://github.com/itchyny/qhs) 0.3.3
 - [rexdep](https://github.com/itchyny/rexdep) 0.3.0
 - [sjsp](https://github.com/itchyny/sjsp) 0.1.1
-- [volume](https://github.com/itchyny/volume-go) 0.2.0
+- [volume](https://github.com/itchyny/volume-go) 0.2.1
 
 ## Author
 itchyny (https://github.com/itchyny)
