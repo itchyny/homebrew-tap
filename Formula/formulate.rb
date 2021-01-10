@@ -1,8 +1,8 @@
 class Formulate < Formula
   homepage 'https://github.com/itchyny/formulate'
-  version '0.0.6'
-  url 'https://github.com/itchyny/formulate/archive/v0.0.6.zip'
-  sha256 'db3c16e3340802a4f29fba9bf27645c30a54d34c58b7d6009c0a1de720746163'
+  version '0.0.7'
+  url 'https://github.com/itchyny/formulate/archive/v0.0.7.zip'
+  sha256 '96e1fb261c0858ca8f5087de8c37ec954785ad0447b25ff7cdd3ced6d8b52741'
 
   def install
     bin.install 'formulate'
