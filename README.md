@@ -12,7 +12,7 @@
 - [mackerel-plugin-uptime](https://github.com/itchyny/mackerel-plugin-uptime) 0.2.0
 - [maketen](https://github.com/itchyny/maketen-go) 0.0.2
 - [maze](https://github.com/itchyny/maze) 0.0.7
-- [miv](https://github.com/itchyny/miv) 0.4.7
+- [miv](https://github.com/itchyny/miv) 0.4.8
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.3
 - [mmv](https://github.com/itchyny/mmv) 0.1.3
 - [pihex](https://github.com/itchyny/pihex-rs) 0.1.5
