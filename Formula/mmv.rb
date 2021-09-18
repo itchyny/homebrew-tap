@@ -1,13 +1,23 @@
 class Mmv < Formula
   homepage 'https://github.com/itchyny/mmv'
-  version '0.1.3'
+  version '0.1.4'
 
   if OS.mac?
-    url 'https://github.com/itchyny/mmv/releases/download/v0.1.3/mmv_v0.1.3_darwin_amd64.zip'
-    sha256 '51b485da0fc9d7be73cc24392b22541c0ab3760396f5b27030f392aafd59bf9d'
+    if Hardware::CPU.arm?
+      url 'https://github.com/itchyny/mmv/releases/download/v0.1.4/mmv_v0.1.4_darwin_arm64.zip'
+      sha256 'a5ad36cac85b67f743e958a1c9fe24f0f50068d0fa755a6cc26b3f66a91d821e'
+    elsif Hardware::CPU.intel?
+      url 'https://github.com/itchyny/mmv/releases/download/v0.1.4/mmv_v0.1.4_darwin_amd64.zip'
+      sha256 'e5c93c0c82cfdab21701743e7507e26014f8ef539c8b0712eca5a65b16dbb906'
+    end
   elsif OS.linux?
-    url 'https://github.com/itchyny/mmv/releases/download/v0.1.3/mmv_v0.1.3_linux_amd64.tar.gz'
-    sha256 'a43638043acf1285b2d3717ef45fc50952363258c9b5d2bab59bda6f54f5dc27'
+    if Hardware::CPU.arm?
+      url 'https://github.com/itchyny/mmv/releases/download/v0.1.4/mmv_v0.1.4_linux_arm64.tar.gz'
+      sha256 'ec2e3fcc9883664744688c24f4030cf9a4fb2f37767f062ccc9f38da42554a02'
+    elsif Hardware::CPU.intel?
+      url 'https://github.com/itchyny/mmv/releases/download/v0.1.4/mmv_v0.1.4_linux_amd64.tar.gz'
+      sha256 '02d9c1e29f1fe1af98b7f73d9a0033c0714e9a5e1b97070ab00e0fc8f74e620f'
+    end
   end
 
   head do
