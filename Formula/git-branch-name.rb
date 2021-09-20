@@ -1,8 +1,8 @@
 class GitBranchName < Formula
   homepage 'https://github.com/itchyny/git-branch-name'
-  version '0.0.1'
-  url 'https://github.com/itchyny/git-branch-name/archive/v0.0.1.zip'
-  sha256 '806e71e0d6365af46e65e9eb975f75e11fa8bedcd17c4996bcad40b2ae20356c'
+  version '0.0.2'
+  url 'https://github.com/itchyny/git-branch-name/archive/v0.0.2.zip'
+  sha256 '5e8fbd121b8b25ae64017b61f50c2a57f07abc4627a3b6b01b505a4f78b72dad'
   head 'https://github.com/itchyny/git-branch-name.git'
 
   depends_on 'autoconf' => :build

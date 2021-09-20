@@ -5,7 +5,7 @@
 - [bed](https://github.com/itchyny/bed) 0.2.2
 - [fillin](https://github.com/itchyny/fillin) 0.3.3
 - [formulate](https://github.com/itchyny/formulate) 0.0.7
-- [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.1
+- [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.2
 - [gojo](https://github.com/itchyny/gojo) 0.2.0
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.0.3
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.0.0
