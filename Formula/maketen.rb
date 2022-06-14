@@ -1,13 +1,23 @@
 class Maketen < Formula
   homepage 'https://github.com/itchyny/maketen-go'
-  version '0.0.2'
+  version '0.1.0'
 
   if OS.mac?
-    url 'https://github.com/itchyny/maketen-go/releases/download/v0.0.2/maketen_v0.0.2_darwin_amd64.zip'
-    sha256 '752741f64ca9bf06d4d0e1cf5503c8bc5e282aa69c4a611a267c264739494b60'
+    if Hardware::CPU.arm?
+      url 'https://github.com/itchyny/maketen-go/releases/download/v0.1.0/maketen_v0.1.0_darwin_arm64.zip'
+      sha256 'f911cfbc156435dd0643d93cc897be2cb9d2c0f8e1dc532f2980679395f25b63'
+    elsif Hardware::CPU.intel?
+      url 'https://github.com/itchyny/maketen-go/releases/download/v0.1.0/maketen_v0.1.0_darwin_amd64.zip'
+      sha256 'd76df7b4be76e424fd60a3f8a37e765d01a4487fb9c382272dd9a62e25a43a52'
+    end
   elsif OS.linux?
-    url 'https://github.com/itchyny/maketen-go/releases/download/v0.0.2/maketen_v0.0.2_linux_amd64.tar.gz'
-    sha256 'df1bb5c6880ff6daaa38ff8a1d93cda51a7c264c243d7ea4973247df46f2dd4e'
+    if Hardware::CPU.arm?
+      url 'https://github.com/itchyny/maketen-go/releases/download/v0.1.0/maketen_v0.1.0_linux_arm64.tar.gz'
+      sha256 '0a4ddf389ef24fcdc5aa413dfd663d03a60faa2ade3c4751870c7a30b5e0fe70'
+    elsif Hardware::CPU.intel?
+      url 'https://github.com/itchyny/maketen-go/releases/download/v0.1.0/maketen_v0.1.0_linux_amd64.tar.gz'
+      sha256 '932f7557d4c98a14105514bdc2daaf1b545104942da46bb39b87f5bd91b0bbc5'
+    end
   end
 
   head do
