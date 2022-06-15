@@ -3,21 +3,21 @@ set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
-tmp=$(mktemp -t "update.XXXXXXXX")
-trap 'rm -rf $tmp' EXIT SIGHUP SIGINT SIGQUIT SIGTERM
+tmp=$(mktemp)
+trap 'rm -f $tmp' EXIT
 
-if [[ $# == 0 ]]; then
-  formulas=$(git ls-files Formula | grep "[.]rb$")
+if [[ $# -eq 0 ]]; then
+  formulas=(Formula/*.rb)
 else
-  formulas=$*
+  formulas=("$@")
 fi
 
-for formula in $formulas; do
+for formula in "${formulas[@]}"; do
   formulate update "$formula" 2> >(tee "$tmp" >&2)
-  if grep "Updated" "$tmp" > /dev/null; then
-    name=$(basename "${formula%.*}")
-    version=$(sed -n "/version/s/^.*'\\(.*\\)'.*/\\1/gp" "$formula" | head -n1)
-    ./script/update-readme
+  if grep -q "Updated" "$tmp"; then
+    script/update-readme
+    name=$(basename "$formula" .rb)
+    version=$(sed -n -E "/version/{s/.*'(.*)'.*/\\1/p;q;}" "$formula")
     git commit -a -m "$name v$version"
   fi
 done

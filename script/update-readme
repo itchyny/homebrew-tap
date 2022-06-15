@@ -4,27 +4,16 @@ set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
 target="README.md"
-tmp=$(mktemp -t "update-readme.XXXXXXXX")
-outtmp=$(mktemp -t "update-readme.XXXXXXXX")
-trap 'rm -rf $tmp $outtmp' EXIT SIGHUP SIGINT SIGQUIT SIGTERM
+tmp=$(mktemp)
+trap 'rm -f $tmp' EXIT
 
-for formula in $(git ls-files Formula | grep "[.]rb$"); do
-  homepage=$(sed -n "/homepage/s/^.*'\\(.*\\)'.*/\\1/gp" "$formula" | head -n1)
-  name=$(basename "${formula%.*}")
-  version=$(sed -n "/version/s/^.*'\\(.*\\)'.*/\\1/gp" "$formula" | head -n1)
-  echo "- [$name]($homepage) $version"
-done > "$tmp"
+sed -n '/^-/q;p' "$target" >>"$tmp"
+for formula in Formula/*.rb; do
+  name=$(basename "$formula" .rb)
+  homepage=$(sed -n -E "/homepage/{s/.*'(.*)'.*/\\1/p;q;}" "$formula")
+  version=$(sed -n -E "/version/{s/.*'(.*)'.*/\\1/p;q;}" "$formula")
+  echo "- [$name]($homepage) $version" >>"$tmp"
+done
+sed -n '1,/^-/d;/^$/,$p' "$target" >>"$tmp"
 
-state=0
-while IFS= read -r line; do
-  if [[  $state -le 1 && $line == '-'* ]]; then
-    state=1
-    continue
-  elif [[ $state == 1 ]]; then
-    state=2
-    cat "$tmp"
-  fi
-  echo "$line"
-done < "$target" > "$outtmp"
-
-mv "$outtmp" "$target"
+mv "$tmp" "$target"
