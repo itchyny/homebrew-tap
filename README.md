@@ -19,7 +19,7 @@
 - [qhs](https://github.com/itchyny/qhs) 0.3.3
 - [rexdep](https://github.com/itchyny/rexdep) 0.3.2
 - [sjsp](https://github.com/itchyny/sjsp) 0.1.1
-- [volume](https://github.com/itchyny/volume-go) 0.2.1
+- [volume](https://github.com/itchyny/volume-go) 0.2.2
 
 ### Moved to [Homebrew Core](https://github.com/Homebrew/homebrew-core)
 - [gojq](https://github.com/itchyny/gojq)
