@@ -11,7 +11,7 @@
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.1.0
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.0.0
 - [mackerel-plugin-uptime](https://github.com/itchyny/mackerel-plugin-uptime) 0.2.0
-- [maketen](https://github.com/itchyny/maketen-go) 0.1.0
+- [maketen](https://github.com/itchyny/maketen-go) 0.1.1
 - [maze](https://github.com/itchyny/maze) 0.0.8
 - [miv](https://github.com/itchyny/miv) 0.4.8
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.4
