@@ -6,13 +6,8 @@ cd "$(git rev-parse --show-toplevel)"
 tmp=$(mktemp)
 trap 'rm -f $tmp' EXIT
 
-if [[ $# -eq 0 ]]; then
-  formulas=(Formula/*.rb)
-else
-  formulas=("$@")
-fi
-
-for formula in "${formulas[@]}"; do
+(($# == 0)) && set -- Formula/*.rb
+for formula in "$@"; do
   formulate update "$formula" 2> >(tee "$tmp" >&2)
   if grep -q "Updated" "$tmp"; then
     script/update-readme
