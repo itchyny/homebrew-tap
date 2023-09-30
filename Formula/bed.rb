@@ -1,22 +1,22 @@
 class Bed < Formula
   homepage 'https://github.com/itchyny/bed'
-  version '0.2.3'
+  version '0.2.4'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/bed/releases/download/v0.2.3/bed_v0.2.3_darwin_arm64.zip'
-      sha256 'bcb6d7acb90e1e01f95b17fbd65c67543ac1e8b910b38b81b9376fa7669987d4'
+      url 'https://github.com/itchyny/bed/releases/download/v0.2.4/bed_v0.2.4_darwin_arm64.zip'
+      sha256 '4b1bf9cc34fbea9a1fae704bb2e0c383455185409f56d8955b581505614ff342'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/bed/releases/download/v0.2.3/bed_v0.2.3_darwin_amd64.zip'
-      sha256 'df15d98f338f1bfb91785365481b7092347ad93797d8eeb14a585e830a146ba8'
+      url 'https://github.com/itchyny/bed/releases/download/v0.2.4/bed_v0.2.4_darwin_amd64.zip'
+      sha256 '9471e4dc157c885e5a6365d611f76380f2756e68277bd2280171a3c755a59b6a'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/bed/releases/download/v0.2.3/bed_v0.2.3_linux_arm64.tar.gz'
-      sha256 'f589a13ca002494afadb53c2e510f49bcf5b24d254446aad0bd2681e17d8bcc3'
+      url 'https://github.com/itchyny/bed/releases/download/v0.2.4/bed_v0.2.4_linux_arm64.tar.gz'
+      sha256 'a5f74bb5d2bb5f2612daa44b9d8fc1da0ce953c730ad862a4bb840156fcae45a'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/bed/releases/download/v0.2.3/bed_v0.2.3_linux_amd64.tar.gz'
-      sha256 '2cfc953fb8e4ed958905ace217aaa4c4b10df2b00ab62d7613b908ea429d4666'
+      url 'https://github.com/itchyny/bed/releases/download/v0.2.4/bed_v0.2.4_linux_amd64.tar.gz'
+      sha256 '9c2c855bc80ebf9d52953213a47131be49098f51bd6f3397bfccac8824827faa'
     end
   end
 
