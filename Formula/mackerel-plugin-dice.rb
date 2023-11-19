@@ -1,8 +1,8 @@
 class MackerelPluginDice < Formula
   homepage 'https://github.com/itchyny/mackerel-plugin-dice'
-  version '0.0.0'
-  url 'https://github.com/itchyny/mackerel-plugin-dice/releases/download/v0.0.0/mackerel-plugin-dice.zip'
-  sha256 '4ecc30fa38779eb1363dc7111d41a50656b44badfa17fffdcfe57d5c4ebf104a'
+  version '0.1.0'
+  url 'https://github.com/itchyny/mackerel-plugin-dice/releases/download/v0.1.0/mackerel-plugin-dice.zip'
+  sha256 '3e38d106f7aaa3fee29e022d7d044c17907362c7694e5416ab4b5a1c87de71a7'
   head 'https://github.com/itchyny/mackerel-plugin-dice.git'
 
   def install
