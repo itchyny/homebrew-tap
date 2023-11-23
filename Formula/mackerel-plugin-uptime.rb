@@ -12,11 +12,11 @@ class MackerelPluginUptime < Formula
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/mackerel-plugin-uptime/releases/download/v0.2.2/mackerel-plugin-uptime_v0.2.2_linux_arm64.tar.gz'
-      sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+      url 'https://github.com/itchyny/mackerel-plugin-uptime/releases/download/v0.2.2/mackerel-plugin-uptime_v0.2.2_linux_arm64.zip'
+      sha256 'a8cb6ec2bf704a8f75cb2cf67f764cb921114812f7d969803e947e707d54dbec'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/mackerel-plugin-uptime/releases/download/v0.2.2/mackerel-plugin-uptime_v0.2.2_linux_amd64.tar.gz'
-      sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+      url 'https://github.com/itchyny/mackerel-plugin-uptime/releases/download/v0.2.2/mackerel-plugin-uptime_v0.2.2_linux_amd64.zip'
+      sha256 'd2304013a24a15b2a0968516521101f855412bc728a0baf591018e36827170b4'
     end
   end
 

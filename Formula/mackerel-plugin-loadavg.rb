@@ -12,11 +12,11 @@ class MackerelPluginLoadavg < Formula
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/mackerel-plugin-loadavg/releases/download/v0.2.1/mackerel-plugin-loadavg_v0.2.1_linux_arm64.tar.gz'
-      sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+      url 'https://github.com/itchyny/mackerel-plugin-loadavg/releases/download/v0.2.1/mackerel-plugin-loadavg_v0.2.1_linux_arm64.zip'
+      sha256 'c6902f78bd91a150ed266095da71a81a2167b628d027d55072f1330743820caf'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/mackerel-plugin-loadavg/releases/download/v0.2.1/mackerel-plugin-loadavg_v0.2.1_linux_amd64.tar.gz'
-      sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+      url 'https://github.com/itchyny/mackerel-plugin-loadavg/releases/download/v0.2.1/mackerel-plugin-loadavg_v0.2.1_linux_amd64.zip'
+      sha256 'd35a618ea9000afe0da9ef5bfa1ec58f15385ae12738e8e66ff9c7e8822e2483'
     end
   end
 
