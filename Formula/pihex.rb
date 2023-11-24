@@ -12,11 +12,11 @@ class Pihex < Formula
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/pihex/releases/download/v0.1.7/pihex_v0.1.7_linux_arm64.tar.gz'
-      sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+      url 'https://github.com/itchyny/pihex/releases/download/v0.1.7/pihex_v0.1.7_linux_arm64.zip'
+      sha256 '0522b9a5abad43af3d16a61aa84d28d747c8559966399e842c27523c87c1f5ad'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/pihex/releases/download/v0.1.7/pihex_v0.1.7_linux_amd64.tar.gz'
-      sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+      url 'https://github.com/itchyny/pihex/releases/download/v0.1.7/pihex_v0.1.7_linux_amd64.zip'
+      sha256 'a735264bcb7a66340a482d853678dd328a67bd3b5428c7b05c9ed9fb42133314'
     end
   end
 
