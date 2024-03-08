@@ -20,7 +20,7 @@
 - [mmv](https://github.com/itchyny/mmv) 0.1.6
 - [pihex](https://github.com/itchyny/pihex) 0.1.7
 - [qhs](https://github.com/itchyny/qhs) 0.3.3
-- [rassemble](https://github.com/itchyny/rassemble-go) 0.1.0
+- [rassemble](https://github.com/itchyny/rassemble-go) 0.1.1
 - [rexdep](https://github.com/itchyny/rexdep) 0.3.2
 - [sjsp](https://github.com/itchyny/sjsp) 0.1.1
 - [volume](https://github.com/itchyny/volume-go) 0.2.2
