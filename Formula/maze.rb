@@ -1,22 +1,22 @@
 class Maze < Formula
   homepage 'https://github.com/itchyny/maze'
-  version '0.0.9'
+  version '0.0.10'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/maze/releases/download/v0.0.9/maze_v0.0.9_darwin_arm64.zip'
-      sha256 'e992bfcdab40204e88597a3b92cb6b7338729df69531cde5d5d07f9439b57f77'
+      url 'https://github.com/itchyny/maze/releases/download/v0.0.10/maze_v0.0.10_darwin_arm64.zip'
+      sha256 '5204f4867480cdd19380fe47a9d82281180bfe76c1cb4a21197edad346c74006'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/maze/releases/download/v0.0.9/maze_v0.0.9_darwin_amd64.zip'
-      sha256 'ab368da90e1f9764268991efbb2129e81e3bb926069ebb923d4634bc01353267'
+      url 'https://github.com/itchyny/maze/releases/download/v0.0.10/maze_v0.0.10_darwin_amd64.zip'
+      sha256 '57f545cc4e63617cf58f68cf21fe8b14f2a2f70ab8fb6b5bece7fc029f4a1a57'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/maze/releases/download/v0.0.9/maze_v0.0.9_linux_arm64.tar.gz'
-      sha256 '31967576a205b859effda16fd32d06111c3928242e502dfea6566ac1dc043f37'
+      url 'https://github.com/itchyny/maze/releases/download/v0.0.10/maze_v0.0.10_linux_arm64.tar.gz'
+      sha256 '1ea033419afd3feb9d9884e94d08e2f14cc2da3b554959007c3ac9c2c9580b7f'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/maze/releases/download/v0.0.9/maze_v0.0.9_linux_amd64.tar.gz'
-      sha256 '4b47c8f687889f8567b8ee1e96fc20c89870f5a50914cb3545a5a511c1c7cee6'
+      url 'https://github.com/itchyny/maze/releases/download/v0.0.10/maze_v0.0.10_linux_amd64.tar.gz'
+      sha256 'c5bfae5a724271a6c20963f118078b77632cd746977dbc7cae148d9c3a3bfe91'
     end
   end
 
