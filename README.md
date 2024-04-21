@@ -8,7 +8,7 @@
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.2
 - [gojo](https://github.com/itchyny/gojo) 0.3.2
 - [json2yaml](https://github.com/itchyny/json2yaml) 0.1.4
-- [log2hex](https://github.com/itchyny/log2hex) 0.1.1
+- [log2hex](https://github.com/itchyny/log2hex) 0.1.2
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.2.0
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.1.1
 - [mackerel-plugin-loadavg](https://github.com/itchyny/mackerel-plugin-loadavg) 0.2.1

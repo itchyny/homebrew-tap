@@ -1,22 +1,22 @@
 class Log2hex < Formula
   homepage 'https://github.com/itchyny/log2hex'
-  version '0.1.1'
+  version '0.1.2'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.1/log2hex_v0.1.1_darwin_arm64.zip'
-      sha256 'c905d887ab973c0131cf235c5de11e0cb1c1def288849392a85072513f583678'
+      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.2/log2hex_v0.1.2_darwin_arm64.zip'
+      sha256 '2c1fa715bd019e59cfd34de90b04af56ac101ff7f67012af75e1f0ca3f95e30d'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.1/log2hex_v0.1.1_darwin_amd64.zip'
-      sha256 '4429a0d53ea059a3a20463f0190597ec457df3be6d511424c346ba88d1e40d58'
+      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.2/log2hex_v0.1.2_darwin_amd64.zip'
+      sha256 '87be76e458c45345ab4027b83ba6e2d3a1a9ac9b266a7cad0823783534360ccb'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.1/log2hex_v0.1.1_linux_arm64.zip'
-      sha256 '5a67cdc8420888f9383f702a5d6428489a0ad288cd7b0966ea54d1c3dc248eb6'
+      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.2/log2hex_v0.1.2_linux_arm64.zip'
+      sha256 'ae3eb56b5d981ac0b60ae5182edbb44a15d0aedc6a7d38ecaa7043f798113e91'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.1/log2hex_v0.1.1_linux_amd64.zip'
-      sha256 '9fe37863ac56ea9761b7ce3ecec7effe5337108325c259583b044578a664558e'
+      url 'https://github.com/itchyny/log2hex/releases/download/v0.1.2/log2hex_v0.1.2_linux_amd64.zip'
+      sha256 '37d6e016f471875d7a56e0bb55383ace2268f44b6fbe311f7ca8b1774df9e1e3'
     end
   end
 
