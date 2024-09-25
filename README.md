@@ -2,7 +2,6 @@
 ## Formula list
 
 - [base58](https://github.com/itchyny/base58-go) 0.2.2
-- [bed](https://github.com/itchyny/bed) 0.2.5
 - [fillin](https://github.com/itchyny/fillin) 0.3.3
 - [formulate](https://github.com/itchyny/formulate) 0.0.12
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.2
@@ -26,10 +25,12 @@
 - [volume](https://github.com/itchyny/volume-go) 0.2.2
 
 ### Moved to [Homebrew Core](https://github.com/Homebrew/homebrew-core)
+
+- [bed](https://github.com/itchyny/bed)
 - [gojq](https://github.com/itchyny/gojq)
 
 ## Author
-itchyny (https://github.com/itchyny)
+itchyny (<https://github.com/itchyny>)
 
 ## License
 This software is released under the MIT License, see LICENSE.
