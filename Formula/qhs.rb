@@ -1,13 +1,13 @@
 class Qhs < Formula
   homepage 'https://github.com/itchyny/qhs'
-  version '0.3.3'
+  version '0.4.0'
 
   if OS.mac?
-    url 'https://github.com/itchyny/qhs/releases/download/v0.3.3/qhs_v0.3.3_darwin_amd64.zip'
-    sha256 'f833a75462ead44d80a985e2f8246e496c357cb30a40b14decc129742cc38bcb'
+    url 'https://github.com/itchyny/qhs/releases/download/v0.4.0/qhs_v0.4.0_darwin_arm64.zip'
+    sha256 'e522a1cb99648ef9880cd4376e2fe6b75bded511289e2bff70b2832ec2d6ec77'
   elsif OS.linux?
-    url 'https://github.com/itchyny/qhs/releases/download/v0.3.3/qhs_v0.3.3_linux_amd64.zip'
-    sha256 '8f5371fd34ecc3205692994c3df4a1f16bfd499cb679161ad7ad1b4606a191c1'
+    url 'https://github.com/itchyny/qhs/releases/download/v0.4.0/qhs_v0.4.0_linux_amd64.zip'
+    sha256 'edfe67507652ffd900318cc40078b950a517ae1c1ad95d6d77178090ccaec622'
   end
 
   def install
