@@ -1,22 +1,22 @@
 class Gojo < Formula
   homepage 'https://github.com/itchyny/gojo'
-  version '0.3.2'
+  version '0.3.3'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/gojo/releases/download/v0.3.2/gojo_v0.3.2_darwin_arm64.zip'
-      sha256 'f6f008b46da672feca0b210c1064b423a2b92524ef0fe14da237c65a911b42f3'
+      url 'https://github.com/itchyny/gojo/releases/download/v0.3.3/gojo_v0.3.3_darwin_arm64.zip'
+      sha256 '08674e388433d03b03bc8e60e564e028da3ff464635d964107db3fa7758146ba'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/gojo/releases/download/v0.3.2/gojo_v0.3.2_darwin_amd64.zip'
-      sha256 '8a35de675d90da9cf393ca60fb73e4cce32466f3bf087152a7d906cfad0dacb0'
+      url 'https://github.com/itchyny/gojo/releases/download/v0.3.3/gojo_v0.3.3_darwin_amd64.zip'
+      sha256 '90fe1c43d7ac38d287bd99f81d3edbd4b6ae3dce8b14304fe87f3cca5a0d82ad'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/gojo/releases/download/v0.3.2/gojo_v0.3.2_linux_arm64.tar.gz'
-      sha256 '157e261ab5cf0b83ffd147533dc49fdc9ad1ccf2c250967e3aa3271aeee6d82e'
+      url 'https://github.com/itchyny/gojo/releases/download/v0.3.3/gojo_v0.3.3_linux_arm64.tar.gz'
+      sha256 'f78d1e3bb06815cb326ea23cafb75fc1016371b13cb7b81d1a656d0fb083adce'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/gojo/releases/download/v0.3.2/gojo_v0.3.2_linux_amd64.tar.gz'
-      sha256 'c3211d5726992afc6d2dc08e6bab3755fe540fa3310f5b81d4ca59e8c0905d8a'
+      url 'https://github.com/itchyny/gojo/releases/download/v0.3.3/gojo_v0.3.3_linux_amd64.tar.gz'
+      sha256 'f4e3edccf6dd8bb7a8e147a3fee74fcc98dd589dc70bff774ce15605ca921ebc'
     end
   end
 

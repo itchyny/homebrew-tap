@@ -5,7 +5,7 @@
 - [fillin](https://github.com/itchyny/fillin) 0.3.3
 - [formulate](https://github.com/itchyny/formulate) 0.0.12
 - [git-branch-name](https://github.com/itchyny/git-branch-name) 0.0.2
-- [gojo](https://github.com/itchyny/gojo) 0.3.2
+- [gojo](https://github.com/itchyny/gojo) 0.3.3
 - [json2yaml](https://github.com/itchyny/json2yaml) 0.1.4
 - [log2hex](https://github.com/itchyny/log2hex) 0.1.2
 - [mackerel-plugin-battery](https://github.com/itchyny/mackerel-plugin-battery) 0.2.0
