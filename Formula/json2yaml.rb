@@ -1,22 +1,22 @@
 class Json2yaml < Formula
   homepage 'https://github.com/itchyny/json2yaml'
-  version '0.1.4'
+  version '0.1.5'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.4/json2yaml_v0.1.4_darwin_arm64.zip'
-      sha256 '152526f015de83bed19c34cb395a7ffe95eaeb6e037241c03f2a900e8a238132'
+      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.5/json2yaml_v0.1.5_darwin_arm64.zip'
+      sha256 '147eabdf0227c54a8dd307a20ec087b6209c113dad3673330b88a23b7c9788b5'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.4/json2yaml_v0.1.4_darwin_amd64.zip'
-      sha256 '1b502636eb7b484c0ae3b721cb07f2619dfbf5b819eac0c857f168874229c66c'
+      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.5/json2yaml_v0.1.5_darwin_amd64.zip'
+      sha256 '81cdc56adefb6992b737eb48f6fbfab5fedcc2aa4c4a3cb10731b5456c7aaea2'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.4/json2yaml_v0.1.4_linux_arm64.tar.gz'
-      sha256 'c9288f3a1c58e6b6222306e717f1b8e0ce8af036a4ceb2ef38cfb025ed113e64'
+      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.5/json2yaml_v0.1.5_linux_arm64.tar.gz'
+      sha256 '18c5a98364059d15c21078721633cb7f536f8eb2cab4e61d90b80e2f6dec212b'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.4/json2yaml_v0.1.4_linux_amd64.tar.gz'
-      sha256 '5305f6f4a03891359c1da224402844a1ccba57376daba94e0195d47ffd5df546'
+      url 'https://github.com/itchyny/json2yaml/releases/download/v0.1.5/json2yaml_v0.1.5_linux_amd64.tar.gz'
+      sha256 'cdbe06d731cbd4c5e4b4e286119440783db5a49055d6d99f6930def87f864d70'
     end
   end
 
