@@ -21,7 +21,7 @@
 - [qhs](https://github.com/itchyny/qhs) 0.4.3
 - [rassemble](https://github.com/itchyny/rassemble-go) 0.1.2
 - [rexdep](https://github.com/itchyny/rexdep) 0.3.2
-- [volume](https://github.com/itchyny/volume-go) 0.2.2
+- [volume](https://github.com/itchyny/volume-go) 0.2.3
 
 ### Moved to [Homebrew Core](https://github.com/Homebrew/homebrew-core)
 
