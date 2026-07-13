@@ -12,7 +12,7 @@
 - [mackerel-plugin-dice](https://github.com/itchyny/mackerel-plugin-dice) 0.1.1
 - [mackerel-plugin-loadavg](https://github.com/itchyny/mackerel-plugin-loadavg) 0.2.1
 - [mackerel-plugin-uptime](https://github.com/itchyny/mackerel-plugin-uptime) 0.2.2
-- [maketen](https://github.com/itchyny/maketen-go) 0.1.1
+- [maketen](https://github.com/itchyny/maketen-go) 0.1.2
 - [maze](https://github.com/itchyny/maze) 0.0.11
 - [miv](https://github.com/itchyny/miv) 0.4.9
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.4
