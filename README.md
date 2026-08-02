@@ -17,7 +17,7 @@
 - [miv](https://github.com/itchyny/miv) 0.4.9
 - [mkrg](https://github.com/itchyny/mkrg) 0.0.4
 - [mmv](https://github.com/itchyny/mmv) 0.1.6
-- [pihex](https://github.com/itchyny/pihex) 0.1.8
+- [pihex](https://github.com/itchyny/pihex) 0.1.9
 - [qhs](https://github.com/itchyny/qhs) 0.4.3
 - [rassemble](https://github.com/itchyny/rassemble-go) 0.1.2
 - [rexdep](https://github.com/itchyny/rexdep) 0.3.2

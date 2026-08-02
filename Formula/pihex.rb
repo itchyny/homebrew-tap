@@ -1,22 +1,22 @@
 class Pihex < Formula
   homepage 'https://github.com/itchyny/pihex'
-  version '0.1.8'
+  version '0.1.9'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/pihex/releases/download/v0.1.8/pihex_v0.1.8_darwin_arm64.zip'
-      sha256 '864bcdf8079d9af861ec1d44b7b6a1a6192fe92acaddf8d6afee5a7f6ec44098'
+      url 'https://github.com/itchyny/pihex/releases/download/v0.1.9/pihex_v0.1.9_darwin_arm64.zip'
+      sha256 '5bde0ea72728fbe28a4d8c6a9c81cfd35b4f2b2c1b9952d92cfe7d3463ebbc4d'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/pihex/releases/download/v0.1.8/pihex_v0.1.8_darwin_amd64.zip'
-      sha256 'f2246be833eb70225f8d43953f85f5aedc61fb22a8c94ddc71e3a37d7c6c8978'
+      url 'https://github.com/itchyny/pihex/releases/download/v0.1.9/pihex_v0.1.9_darwin_amd64.zip'
+      sha256 '83ee97efa2eb9244ab46d583758d470adce6ba88efa3ffb46aa912dde596e424'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/pihex/releases/download/v0.1.8/pihex_v0.1.8_linux_arm64.zip'
-      sha256 'c129e0a2a689ca39b41730a5d5f35700ac7eb8354f51281d474f1658c1b99c16'
+      url 'https://github.com/itchyny/pihex/releases/download/v0.1.9/pihex_v0.1.9_linux_arm64.zip'
+      sha256 'ba170b156627a926c8e2bc0006c93cdbbc450da23e7ddc7c4274a4d686bbeba6'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/pihex/releases/download/v0.1.8/pihex_v0.1.8_linux_amd64.zip'
-      sha256 '35d5fc30087237ab8564cfb94d4ed05024a6e86ebb6cd0c0fcf2c6031a99aeb8'
+      url 'https://github.com/itchyny/pihex/releases/download/v0.1.9/pihex_v0.1.9_linux_amd64.zip'
+      sha256 'de6c6f3808c46ff4b59180d67d6e2ebd65b0a42536b957ac03f5a423ecd75ae7'
     end
   end
 
