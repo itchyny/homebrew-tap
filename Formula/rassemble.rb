@@ -1,22 +1,22 @@
 class Rassemble < Formula
   homepage 'https://github.com/itchyny/rassemble-go'
-  version '0.1.2'
+  version '0.1.3'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.2/rassemble_v0.1.2_darwin_arm64.zip'
-      sha256 '86e68f4c38599b849f71cf28e83204383c14a1e619c95e8b4bbcff04a409fddc'
+      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.3/rassemble_v0.1.3_darwin_arm64.zip'
+      sha256 '2bd8a0aea6c6f56ffc0899ab3595dd290471e953430de3a916e714d4602d746b'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.2/rassemble_v0.1.2_darwin_amd64.zip'
-      sha256 '9dd80b390b425f157d07ea7c8b1aab83a13ddf28bfb76fbef5fe265ec46d3930'
+      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.3/rassemble_v0.1.3_darwin_amd64.zip'
+      sha256 '8f7bd54360e510c7cbb467ed5e140cab6c52cf9b17862c7d56951a7769ebc1a1'
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.2/rassemble_v0.1.2_linux_arm64.tar.gz'
-      sha256 '340b16496f701afbce0be9530dcecf73aea57083a710d75d2f26c0e1b7f7c011'
+      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.3/rassemble_v0.1.3_linux_arm64.tar.gz'
+      sha256 '8fc40c2719e75b4d801b3d63765c4ac10ebafedec8e23d1fbbf9e0900b600fd7'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.2/rassemble_v0.1.2_linux_amd64.tar.gz'
-      sha256 '5764f03d24b4ac3bde9e0eab9d58733626f14df9536fc3f97c4e869680b92c84'
+      url 'https://github.com/itchyny/rassemble-go/releases/download/v0.1.3/rassemble_v0.1.3_linux_amd64.tar.gz'
+      sha256 'a3a34d857ac2955642b1c51677c867b56e8598f130c4c6e0c9d541765220571e'
     end
   end
 
