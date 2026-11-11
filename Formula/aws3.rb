@@ -13,11 +13,11 @@ class Aws3 < Formula
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url 'https://github.com/itchyny/aws3/releases/download/v0.3.0/aws3-v0.3.0-aarch64-unknown-linux-gnu.zip'
-      sha256 '1816c6b4280dc507c68cf090c08d055fb67f6e04a91fbdadf6bf433d83459ef5'
+      url 'https://github.com/itchyny/aws3/releases/download/v0.3.0/aws3-v0.3.0-aarch64-unknown-linux-musl.zip'
+      sha256 'f303dd31979db9ccb675a15801b80cec0b97a0b1b17cfe6ab7bb72f78c0eca75'
     elsif Hardware::CPU.intel?
-      url 'https://github.com/itchyny/aws3/releases/download/v0.3.0/aws3-v0.3.0-x86_64-unknown-linux-gnu.zip'
-      sha256 '10809a017a0c6e6216c21afac0a4b122aaa6723835bef67f3b73c14dc0dc725e'
+      url 'https://github.com/itchyny/aws3/releases/download/v0.3.0/aws3-v0.3.0-x86_64-unknown-linux-musl.zip'
+      sha256 '89162680d8faf9490ebed09643f2d4c7c3923d255969779cf86f9427f7db1066'
     end
   end
 
