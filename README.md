@@ -1,6 +1,7 @@
 # Homebrew formulae for itchyny's projects
 ## Formula list
 
+- [aws3](https://github.com/itchyny/aws3) 0.3.0
 - [base58](https://github.com/itchyny/base58-go) 0.2.3
 - [fillin](https://github.com/itchyny/fillin) 0.3.3
 - [formulate](https://github.com/itchyny/formulate) 0.0.12
